@@ -1,0 +1,2314 @@
+{
+    "assets/chesttracker/textures/gui/sprites/widgets/inventory_button/button.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/chesttracker/textures/gui/sprites/widgets/inventory_button/button_highlighted.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/craftingtweaks/gui.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/font/default.json": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/lang/af_za.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/ar_sa.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/ast_es.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/az_az.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/ba_ru.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/bar.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/be_by.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/be_latn.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/bg_bg.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/br_fr.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/brb.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/bs_ba.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/ca_es.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/cs_cz.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/cy_gb.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/da_dk.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/de_at.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/de_ch.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/de_de.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/el_gr.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/en_au.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/en_ca.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/en_gb.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/en_nz.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/en_pt.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/en_ud.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/en_us-hidetext.json": {
+        "type": "file",
+        "value": "en_us-hidetext.json"
+    },
+    "assets/minecraft/lang/en_us-mod.json": {
+        "type": "file",
+        "value": "en_us-mod.json"
+    },
+    "assets/minecraft/lang/en_us-showtext.json": {
+        "type": "file",
+        "value": "en_us-showtext.json"
+    },
+    "assets/minecraft/lang/en_us.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/en_us.json.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/lang/enp.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/enws.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/eo_uy.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/es_ar.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/es_cl.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/es_ec.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/es_es.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/es_mx.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/es_uy.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/es_ve.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/esan.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/et_ee.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/eu_es.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/fa_ir.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/fi_fi.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/fil_ph.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/fo_fo.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/fr_ca.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/fr_fr.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/fra_de.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/fur_it.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/fy_nl.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/ga_ie.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/gd_gb.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/gl_es.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/haw_us.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/he_il.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/hi_in.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/hr_hr.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/hu_hu.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/hy_am.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/id_id.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/ig_ng.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/io_en.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/is_is.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/isv.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/it_it.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/ja_jp.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/jbo_en.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/ka_ge.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/kk_kz.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/kn_in.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/ko_kr.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/ksh.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/kw_gb.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/la_la.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/lb_lu.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/li_li.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/lmo.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/lo_la.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/lol_us.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/lt_lt.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/lv_lv.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/lzh.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/mk_mk.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/mn_mn.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/ms_my.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/mt_mt.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/nah.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/nds_de.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/nl_be.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/nl_nl.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/nn_no.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/oc_fr.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/ovd.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/pl_pl.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/pt_br.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/pt_pt.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/qya_aa.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/ro_ro.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/rpr.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/ru_ru.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/ry_ua.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/sah_sah.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/se_no.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/showtext.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/sk_sk.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/sl_si.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/so_so.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/sq_al.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/sr_cs.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/sr_sp.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/sv_se.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/sxu.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/szl.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/ta_in.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/th_th.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/tl_ph.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/tlh_aa.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/tok.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/tr_tr.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/tt_ru.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/tzo_mx.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/uk_ua.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/val_es.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/vec_it.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/vi_vn.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/vp_vl.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/yi_de.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/yo_ng.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/zh_cn.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/zh_hk.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/zh_tw.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/lang/zlm_arab.json": {
+        "type": "file",
+        "value": "en_us.json"
+    },
+    "assets/minecraft/textures/gui/brown_recipe_book.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/brown_recipe_book.png.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/anvil.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/minecraft/textures/gui/container/anvil.png.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/beacon.png": {
+        "type": "png",
+        "value": "beacon.png"
+    },
+    "assets/minecraft/textures/gui/container/beacon.png.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/blast_furnace.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/minecraft/textures/gui/container/blast_furnace.png.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/brewing_stand.png": {
+        "type": "png",
+        "value": "brewing_stand.png"
+    },
+    "assets/minecraft/textures/gui/container/brewing_stand.png.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/cartography_table.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/minecraft/textures/gui/container/cartography_table.png.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/chests/barrel.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/chests/chest.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/chests/chest_minecart.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/chests/dropper_block.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/chests/ender_chest.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/chests/large_chest.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/chests/loom_hat.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/crafter.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/minecraft/textures/gui/container/crafter.png.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/crafting_table.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/minecraft/textures/gui/container/crafting_table.png.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/creative_inventory/tab_inventory.png": {
+        "type": "png",
+        "value": "tab_inventory.png"
+    },
+    "assets/minecraft/textures/gui/container/creative_inventory/tab_item_search.png": {
+        "type": "png",
+        "value": "tab_item_search.png"
+    },
+    "assets/minecraft/textures/gui/container/creative_inventory/tab_items.png": {
+        "type": "png",
+        "value": "tab_items.png"
+    },
+    "assets/minecraft/textures/gui/container/creative_inventory/tabs.png": {
+        "type": "png",
+        "value": "tabs.png"
+    },
+    "assets/minecraft/textures/gui/container/dispenser.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/minecraft/textures/gui/container/dispenser.png.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/enchanting_table.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/minecraft/textures/gui/container/enchanting_table.png.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/furnace.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/minecraft/textures/gui/container/furnace.png.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/generic_54.png": {
+        "type": "png",
+        "value": "large.png"
+    },
+    "assets/minecraft/textures/gui/container/generic_54.png.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/grindstone.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/minecraft/textures/gui/container/grindstone.png.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/hopper.png": {
+        "type": "png",
+        "value": "hopper.png"
+    },
+    "assets/minecraft/textures/gui/container/hopper.png.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/horse.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/minecraft/textures/gui/container/inventory/slot.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/inventory/slot.png.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/inventory.png": {
+        "type": "png",
+        "value": "inventory.png"
+    },
+    "assets/minecraft/textures/gui/container/inventory.png.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/legacy_smithing.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/minecraft/textures/gui/container/loom.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/minecraft/textures/gui/container/loom.png.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/shulker_box.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/minecraft/textures/gui/container/shulker_box.png.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/smithing.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/minecraft/textures/gui/container/smithing.png.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/smoker.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/minecraft/textures/gui/container/smoker.png.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/stats_icons.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/stonecutter.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/minecraft/textures/gui/container/stonecutter.png.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/villager.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/minecraft/textures/gui/container/villager2.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/container/villagers/trades.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/recipe_book.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/recipe_button.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/anvil/.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/anvil/error.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/anvil/text_field.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/anvil/text_field_disabled.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/beacon/.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/beacon/button.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/beacon/button_disabled.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/beacon/button_highlighted.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/beacon/button_selected.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/beacon/cancel.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/beacon/confirm.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/blast_furnace/.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/blast_furnace/burn_progress.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/blast_furnace/lit_progress.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/brewing_stand/.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/brewing_stand/brew_progress.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/brewing_stand/bubbles.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/brewing_stand/fuel_length.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/bundle/bundle_progressbar_border.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/bundle/bundle_progressbar_border.png.mcmeta": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/bundle/bundle_progressbar_fill.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/bundle/bundle_progressbar_fill.png.mcmeta": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/bundle/bundle_progressbar_full.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/bundle/bundle_progressbar_full.png.mcmeta": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/cartography_table/duplicated_map.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/cartography_table/error.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/cartography_table/locked.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/cartography_table/map.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/cartography_table/scaled_map.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/crafter/.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/crafter/disabled_slot.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/crafter/powered_redstone.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/crafter/unpowered_redstone.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/scroller.png": {
+        "type": "png",
+        "value": "scroller.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/scroller_disabled.png": {
+        "type": "png",
+        "value": "scroller_disabled.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_1.png": {
+        "type": "png",
+        "value": "tab_bottom_selected_1.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_2.png": {
+        "type": "png",
+        "value": "tab_bottom_selected_2.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_3.png": {
+        "type": "png",
+        "value": "tab_bottom_selected_3.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_4.png": {
+        "type": "png",
+        "value": "tab_bottom_selected_4.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_5.png": {
+        "type": "png",
+        "value": "tab_bottom_selected_5.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_6.png": {
+        "type": "png",
+        "value": "tab_bottom_selected_6.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_7.png": {
+        "type": "png",
+        "value": "tab_bottom_selected_7.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_1.png": {
+        "type": "png",
+        "value": "tab_bottom_unselected_1.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_2.png": {
+        "type": "png",
+        "value": "tab_bottom_unselected_2.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_3.png": {
+        "type": "png",
+        "value": "tab_bottom_unselected_3.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_4.png": {
+        "type": "png",
+        "value": "tab_bottom_unselected_4.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_5.png": {
+        "type": "png",
+        "value": "tab_bottom_unselected_5.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_6.png": {
+        "type": "png",
+        "value": "tab_bottom_unselected_6.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_7.png": {
+        "type": "png",
+        "value": "tab_bottom_unselected_7.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_1.png": {
+        "type": "png",
+        "value": "tab_top_selected_1.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_2.png": {
+        "type": "png",
+        "value": "tab_top_selected_2.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_3.png": {
+        "type": "png",
+        "value": "tab_top_selected_3.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_4.png": {
+        "type": "png",
+        "value": "tab_top_selected_4.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_5.png": {
+        "type": "png",
+        "value": "tab_top_selected_5.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_6.png": {
+        "type": "png",
+        "value": "tab_top_selected_6.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_7.png": {
+        "type": "png",
+        "value": "tab_top_selected_7.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_1.png": {
+        "type": "png",
+        "value": "tab_top_unselected_1.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_2.png": {
+        "type": "png",
+        "value": "tab_top_unselected_2.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_3.png": {
+        "type": "png",
+        "value": "tab_top_unselected_3.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_4.png": {
+        "type": "png",
+        "value": "tab_top_unselected_4.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_5.png": {
+        "type": "png",
+        "value": "tab_top_unselected_5.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_6.png": {
+        "type": "png",
+        "value": "tab_top_unselected_6.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_7.png": {
+        "type": "png",
+        "value": "tab_top_unselected_7.png"
+    },
+    "assets/minecraft/textures/gui/sprites/container/enchanting_table/.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/enchanting_table/enchantment_slot.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/enchanting_table/enchantment_slot_disabled.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/enchanting_table/enchantment_slot_highlighted.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/furnace/.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/furnace/burn_progress.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/furnace/lit_progress.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/grindstone/error.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/horse/armor_slot.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/horse/chest_slots.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/horse/llama_armor_slot.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/horse/saddle_slot.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/loom/.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/loom/banner_slot.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/loom/dye_slot.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/loom/error.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/loom/pattern.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/loom/pattern_highlighted.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/loom/pattern_selected.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/loom/pattern_slot.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/loom/scroller.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/loom/scroller_disabled.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/amethyst_shard.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/axe.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/banner.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/banner_pattern.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/boots.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/brewing_fuel.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/chestplate.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/diamond.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/dye.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/emerald.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/helmet.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/hoe.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/horse_armor.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/ingot.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/lapis_lazuli.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/leggings.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/llama_armor.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/pickaxe.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/potion.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/quartz.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/redstone_dust.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/saddle.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/shield.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/shovel.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/smithing_template_armor_trim.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/smithing_template_netherite_upgrade.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot/sword.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/slot.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/smithing/.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/smithing/error.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/smoker/.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/smoker/burn_progress.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/smoker/lit_progress.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/stonecutter/.rpo": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/stonecutter/recipe.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/stonecutter/recipe_highlighted.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/stonecutter/recipe_selected.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/villager/discount_strikethrough.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/villager/experience_bar_background.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/villager/experience_bar_current.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/villager/experience_bar_result.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/villager/out_of_stock.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/villager/scroller.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/villager/scroller_disabled.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/villager/trade_arrow.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/container/villager/trade_arrow_out_of_stock.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/button.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/button_highlighted.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/crafting_overlay.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/crafting_overlay_disabled.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/crafting_overlay_disabled_highlighted.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/crafting_overlay_highlighted.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/filter_disabled.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/filter_disabled_highlighted.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/filter_enabled.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/filter_enabled_highlighted.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/furnace_filter_disabled.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/furnace_filter_disabled_highlighted.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/furnace_filter_enabled.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/furnace_filter_enabled_highlighted.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/furnace_overlay.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/furnace_overlay_disabled.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/furnace_overlay_disabled_highlighted.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/furnace_overlay_highlighted.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/overlay_recipe.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/overlay_recipe.png.mcmeta": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/page_backward.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/page_backward_highlighted.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/page_forward.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/page_forward_highlighted.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/recipe_book.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/slot_craftable.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/slot_many_craftable.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/slot_many_uncraftable.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/slot_uncraftable.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/tab.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/recipe_book/tab_selected.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/widget/button.png": {
+        "type": "png",
+        "value": "button.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/button.png.mcmeta": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/widget/button_disabled.png": {
+        "type": "png",
+        "value": "button_disabled.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/button_disabled.png.mcmeta": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/widget/button_highlighted.png": {
+        "type": "png",
+        "value": "button_highlighted.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/button_highlighted.png.mcmeta": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/widget/checkbox.png": {
+        "type": "png",
+        "value": "checkbox.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/checkbox_highlighted.png": {
+        "type": "png",
+        "value": "checkbox_highlighted.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/checkbox_selected.png": {
+        "type": "png",
+        "value": "checkbox_selected.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/checkbox_selected_highlighted.png": {
+        "type": "png",
+        "value": "checkbox_selected_highlighted.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/cross_button.png": {
+        "type": "png",
+        "value": "cross_button.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/cross_button_highlighted.png": {
+        "type": "png",
+        "value": "cross_button_highlighted.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/locked_button.png": {
+        "type": "png",
+        "value": "locked_button.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/locked_button_disabled.png": {
+        "type": "png",
+        "value": "locked_button_disabled.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/locked_button_highlighted.png": {
+        "type": "png",
+        "value": "locked_button_highlighted.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/page_backward.png": {
+        "type": "png",
+        "value": "page_backward.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/page_backward_highlighted.png": {
+        "type": "png",
+        "value": "page_backward_highlighted.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/page_forward.png": {
+        "type": "png",
+        "value": "page_forward.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/page_forward_highlighted.png": {
+        "type": "png",
+        "value": "page_forward_highlighted.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/scroller.png": {
+        "type": "png",
+        "value": "scroller_BUTTONS.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/scroller.png.mcmeta": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/widget/scroller_background.png": {
+        "type": "png",
+        "value": "scroller_background.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/scroller_background.png.mcmeta": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/widget/slider.png": {
+        "type": "png",
+        "value": "slider.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/slider.png.mcmeta": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/widget/slider_handle.png": {
+        "type": "png",
+        "value": "slider_handle.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/slider_handle.png.mcmeta": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/widget/slider_handle_highlighted.png": {
+        "type": "png",
+        "value": "slider_handle_highlighted.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/slider_handle_highlighted.png.mcmeta": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/widget/slider_highlighted.png": {
+        "type": "png",
+        "value": "slider_highlighted.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/slider_highlighted.png.mcmeta": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/widget/slot_frame.png": {
+        "type": "png",
+        "value": "slot_frame.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/tab.png": {
+        "type": "png",
+        "value": "tab.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/tab.png.mcmeta": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/widget/tab_highlighted.png": {
+        "type": "png",
+        "value": "tab_highlighted.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/tab_highlighted.png.mcmeta": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/widget/tab_selected.png": {
+        "type": "png",
+        "value": "tab_selected.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/tab_selected.png.mcmeta": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/widget/tab_selected_highlighted.png": {
+        "type": "png",
+        "value": "tab_selected_highlighted.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/tab_selected_highlighted.png.mcmeta": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/widget/text_field.png": {
+        "type": "png",
+        "value": "text_field.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/text_field.png.mcmeta": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/widget/text_field_highlighted.png": {
+        "type": "png",
+        "value": "text_field_highlighted.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/text_field_highlighted.png.mcmeta": {
+        "type": "file",
+        "value": null
+    },
+    "assets/minecraft/textures/gui/sprites/widget/unlocked_button.png": {
+        "type": "png",
+        "value": "unlocked_button.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/unlocked_button_disabled.png": {
+        "type": "png",
+        "value": "unlocked_button_disabled.png"
+    },
+    "assets/minecraft/textures/gui/sprites/widget/unlocked_button_highlighted.png": {
+        "type": "png",
+        "value": "unlocked_button_highlighted.png"
+    },
+    "assets/minecraft/textures/item/empty_armor_slot_boots.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/item/empty_armor_slot_chestplate.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/item/empty_armor_slot_helmet.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/item/empty_armor_slot_leggings.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/item/empty_armor_slot_shield.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/item/empty_slot_amethyst_shard.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/item/empty_slot_axe.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/item/empty_slot_diamond.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/item/empty_slot_emerald.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/item/empty_slot_hoe.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/item/empty_slot_ingot.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/item/empty_slot_lapis_lazuli.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/item/empty_slot_pickaxe.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/item/empty_slot_quartz.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/item/empty_slot_redstone_dust.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/item/empty_slot_shovel.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/item/empty_slot_smithing_template_armor_trim.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/item/empty_slot_smithing_template_netherite_upgrade.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/minecraft/textures/item/empty_slot_sword.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/optigui/gui/barrel/barrel.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/barrel/barrel.png": {
+        "type": "png",
+        "value": "large.png"
+    },
+    "assets/optigui/gui/chests/chest/chest.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/chests/chest/chest.png": {
+        "type": "png",
+        "value": "large.png"
+    },
+    "assets/optigui/gui/chests/chest_boat/chest_boat.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/chests/chest_boat/chest_boat.png": {
+        "type": "png",
+        "value": "large.png"
+    },
+    "assets/optigui/gui/chests/ender_chest/ender_chest.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/chests/ender_chest/ender_chest.png": {
+        "type": "png",
+        "value": "large.png"
+    },
+    "assets/optigui/gui/copper_chests/copper_chest.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/copper_chests/copper_chest.png": {
+        "type": "png",
+        "value": "large.png"
+    },
+    "assets/optigui/gui/copper_chests/copper_chest_single.png": {
+        "type": "png",
+        "value": "large.png"
+    },
+    "assets/optigui/gui/copper_chests/exposed_copper_chest.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/copper_chests/exposed_copper_chest.png": {
+        "type": "png",
+        "value": "large.png"
+    },
+    "assets/optigui/gui/copper_chests/exposed_copper_chest_single.png": {
+        "type": "png",
+        "value": "large.png"
+    },
+    "assets/optigui/gui/copper_chests/oxidized_copper_chest.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/copper_chests/oxidized_copper_chest.png": {
+        "type": "png",
+        "value": "large.png"
+    },
+    "assets/optigui/gui/copper_chests/oxidized_copper_chest_single.png": {
+        "type": "png",
+        "value": "large.png"
+    },
+    "assets/optigui/gui/copper_chests/weathered_copper_chest.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/copper_chests/weathered_copper_chest.png": {
+        "type": "png",
+        "value": "large.png"
+    },
+    "assets/optigui/gui/copper_chests/weathered_copper_chest_single.png": {
+        "type": "png",
+        "value": "large.png"
+    },
+    "assets/optigui/gui/dropper_dispenser/dispenser.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/dropper_dispenser/dispenser.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/dropper_dispenser/dropper.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/dropper_dispenser/dropper.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/lectern.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/lectern.png": {
+        "type": "png",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/black/black.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/black/black.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/black/black_renamed.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/black/black_renamed.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/blue/blue.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/blue/blue.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/blue/blue_renamed.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/blue/blue_renamed.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/brown/brown.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/brown/brown.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/brown/brown_renamed.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/brown/brown_renamed.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/cyan/cyan.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/cyan/cyan.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/cyan/cyan_renamed.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/cyan/cyan_renamed.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/gray/gray.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/gray/gray.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/gray/gray_renamed.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/gray/gray_renamed.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/green/green.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/green/green.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/green/green_renamed.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/green/green_renamed.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/light_blue/light_blue.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/light_blue/light_blue.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/light_blue/light_blue_renamed.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/light_blue/light_blue_renamed.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/light_gray/light_gray.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/light_gray/light_gray.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/light_gray/light_gray_renamed.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/light_gray/light_gray_renamed.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/lime/lime.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/lime/lime.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/lime/lime_renamed.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/lime/lime_renamed.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/magenta/magenta.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/magenta/magenta.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/magenta/magenta_renamed.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/magenta/magenta_renamed.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/orange/orange.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/orange/orange.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/orange/orange_renamed.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/orange/orange_renamed.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/pink/pink.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/pink/pink.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/pink/pink_renamed.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/pink/pink_renamed.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/purple/purple.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/purple/purple.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/purple/purple_renamed.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/purple/purple_renamed.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/red/red.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/red/red.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/red/red_renamed.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/red/red_renamed.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/shulker/shulker.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/shulker/shulker.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/shulker/shulker_renamed.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/shulker/shulker_renamed.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/white/white.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/white/white.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/white/white_renamed.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/white/white_renamed.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/yellow/yellow.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/yellow/yellow.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/shulkers/yellow/yellow_renamed.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/shulkers/yellow/yellow_renamed.png": {
+        "type": "png",
+        "value": "default.png"
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/armorer.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/armorer.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/butcher.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/butcher.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/cartographer.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/cartographer.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/cleric.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/cleric.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/farmer.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/farmer.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/fisherman.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/fisherman.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/fletcher.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/fletcher.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/leatherworker.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/leatherworker.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/librarian.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/librarian.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/mason.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/mason.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/shepherd.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/shepherd.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/toolsmith.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/toolsmith.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/wandering_trader.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/wandering_trader.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/weaponsmith.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/OLD VILLAGERS/weaponsmith.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/armorer/armorer.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/armorer/armorer.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/butcher/butcher.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/butcher/butcher.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/cartographer/cartographer.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/cartographer/cartographer.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/cleric/cleric.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/cleric/cleric.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/farmer/farmer.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/farmer/farmer.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/fisherman/fisherman.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/fisherman/fisherman.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/fletcher/fletcher.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/fletcher/fletcher.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/leatherworker/leatherworker.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/leatherworker/leatherworker.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/librarian/librarian.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/librarian/librarian.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/mason/mason.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/mason/mason.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/shepherd/shepherd.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/shepherd/shepherd.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/toolsmith/toolsmith.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/toolsmith/toolsmith.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/wandering_trader/wandering_trader.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/wandering_trader/wandering_trader.png": {
+        "type": "png",
+        "value": "villager.png"
+    },
+    "assets/optigui/gui/villagers/weaponsmith/weaponsmith.ini": {
+        "type": "file",
+        "value": null
+    },
+    "assets/optigui/gui/villagers/weaponsmith/weaponsmith.png": {
+        "type": "png",
+        "value": "villager.png"
+    }
+}
