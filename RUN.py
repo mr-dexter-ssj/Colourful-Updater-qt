@@ -2,7 +2,7 @@ import os
 import shutil
 import subprocess
 import tkinter as tk
-from tkinter import ttk, messagebox, filedialog
+from tkinter import PhotoImage, ttk, messagebox, filedialog
 from PIL import Image, ImageTk
 import json
 
@@ -30,9 +30,8 @@ root.minsize(1300, 700)
 
 # === Icons ===
 ICON_PATH = os.path.join(ROOT, "icons")
-FAVICON_PATH = os.path.join(os.path.dirname(__file__), "Logo.ico")
-if os.path.exists(FAVICON_PATH):
-    root.iconbitmap(FAVICON_PATH)
+FAVICON_PATH = PhotoImage(file = os.path.join(os.path.dirname(__file__), "Logo.png"))
+root.iconphoto(False, FAVICON_PATH)
 
 def load_icon(name):
     path = os.path.join(ICON_PATH, name)
