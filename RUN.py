@@ -5,6 +5,8 @@ import tkinter as tk
 from tkinter import PhotoImage, ttk, messagebox, filedialog
 from PIL import Image, ImageTk
 import json
+import webbrowser
+import platform
 
 # === Paths ===
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -30,7 +32,7 @@ root.minsize(1300, 700)
 
 # === Icons ===
 ICON_PATH = os.path.join(ROOT, "icons")
-FAVICON_PATH = PhotoImage(file = os.path.join(os.path.dirname(__file__), "Logo.png"))
+FAVICON_PATH = PhotoImage(file=os.path.join(os.path.dirname(__file__), "Logo.png"))
 root.iconphoto(False, FAVICON_PATH)
 
 def load_icon(name):
@@ -46,6 +48,9 @@ icons = {
     "play": load_icon("play.png"),
     "check": load_icon("check.png"),
     "trash": load_icon("trash.png"),
+    "editor": load_icon("editor.png"),
+    "explorer": load_icon("explorer.png"),
+    "refresh": load_icon("refresh.png"),
 }
 
 # === Button style for left-aligned icons + text ===
@@ -118,10 +123,7 @@ show_files_cb.pack(anchor="w", pady=(0, 8))
 folder_var = tk.StringVar()
 
 def get_overlay_folders():
-    return sorted([
-        f for f in os.listdir(OVL)
-        if os.path.isdir(os.path.join(OVL, f))
-    ])
+    return sorted([f for f in os.listdir(OVL) if os.path.isdir(os.path.join(OVL, f))])
 
 folder_dropdown = ttk.Combobox(
     left_controls,
@@ -131,7 +133,6 @@ folder_dropdown = ttk.Combobox(
 )
 folder_dropdown.pack(fill="x", pady=5)
 folder_var.set("Dark mode")
-
 
 # --- Overlay/Replacement selector ---
 overlay_var = tk.StringVar()
@@ -183,14 +184,14 @@ save_btn = ttk.Button(
 )
 save_btn.pack(fill="x", pady=5)
 
-upload_btn = ttk.Button(
+settings_btn = ttk.Button(
     right_buttons,
-    text="Upload Overlay/Replacement",
+    text="Settings",
     image=icons["upload"],
     compound="left",
     style="Left.TButton"
 )
-upload_btn.pack(fill="x", pady=5)
+settings_btn.pack(fill="x", pady=5)
 
 done_btn = ttk.Button(
     right_buttons,
@@ -204,6 +205,10 @@ done_btn.pack(fill="x", pady=5)
 # --- Preview area ---
 preview_container = ttk.Frame(right)
 preview_container.pack(fill="both", expand=True, pady=10)
+
+def refresh_preview():
+    if current_selection:
+        show_preview(current_selection)
 
 # Info label (size for PNGs, lines for text)
 info_label = ttk.Label(preview_container, text="")
@@ -231,6 +236,45 @@ text_frame.grid(row=1, column=0, sticky="nsew")
 preview_container.rowconfigure(1, weight=1)
 preview_container.columnconfigure(0, weight=1)
 
+# --- Preview action buttons ---
+preview_buttons = ttk.Frame(preview_container)
+preview_buttons.grid(row=2, column=0, sticky="w", pady=(6, 0))
+
+refresh_btn = ttk.Button(
+    preview_buttons,
+    text="Refresh Preview",
+    image=icons["refresh"],
+    compound="left",
+    style="Left.TButton"
+)
+refresh_btn.pack(side="left", padx=(0, 6))
+
+refresh_btn.config(command=refresh_preview)
+
+
+open_external_btn = ttk.Button(
+    preview_buttons,
+    text="Open in external editor",
+    image=icons["editor"],
+    compound="left",
+    style="Left.TButton"
+)
+open_external_btn.pack(side="left", padx=(0, 6))
+
+open_explorer_btn = ttk.Button(
+    preview_buttons,
+    text="View in Explorer",
+    image=icons["explorer"],
+    compound="left",
+    style="Left.TButton"
+)
+open_explorer_btn.pack(side="left")
+
+# Initially hide buttons until selection
+open_external_btn.pack_forget()
+open_explorer_btn.pack_forget()
+refresh_btn.pack_forget()
+
 preview_image = None
 current_selection = None
 
@@ -243,10 +287,6 @@ def get_rel_path(node):
     return "/".join(reversed(parts))
 
 def prioritize_matching_overlay(file_list, target_name):
-    """
-    Moves target_name to the top of file_list if it exists.
-    Keeps everything else sorted.
-    """
     files = sorted(file_list)
     if target_name in files:
         files.remove(target_name)
@@ -254,7 +294,6 @@ def prioritize_matching_overlay(file_list, target_name):
     return files
 
 def draw_checkered_background(pil_img):
-    """Draw checkered background behind PNG"""
     w, h = pil_img.size
     tile_size = 8
     bg = Image.new("RGBA", pil_img.size)
@@ -342,16 +381,15 @@ def on_select(event):
     current_selection = rel
     selected_label.config(text=f"Selected: {rel}")
 
+    # Determine overlay/replacement files
     if rel in mapping:
         entry = mapping[rel]
         folder = folder_var.get()
         filename = os.path.basename(rel)
-
         if entry["type"] == "png":
             files = os.listdir(os.path.join(OVL, folder)) if folder else []
         else:
             files = os.listdir(os.path.join(REPL, folder)) if folder else []
-
         overlay_dropdown["values"] = prioritize_matching_overlay(files, filename)
         overlay_var.set(entry["value"] or "")
         show_preview(rel)
@@ -360,6 +398,18 @@ def on_select(event):
         overlay_var.set("")
         preview_canvas.delete("all")
         info_label.grid_remove()
+
+    # --- Handle preview buttons visibility ---
+    open_external_btn.pack_forget()
+    open_explorer_btn.pack_forget()
+    refresh_btn.pack_forget()
+    if rel not in mapping:
+        return
+    if mapping[rel]["type"] in ("png", "file"):
+        refresh_btn.pack(side="left", padx=(0, 6))
+        open_external_btn.pack(side="left", padx=(0, 6))
+    open_explorer_btn.pack(side="left")
+    
 
 tree.bind("<<TreeviewSelect>>", on_select)
 
@@ -372,26 +422,21 @@ overlay_dropdown.bind("<<ComboboxSelected>>", overlay_preview)
 def folder_changed(event):
     if not current_selection:
         return
-
     rel = current_selection
-    if rel in mapping:
-        entry = mapping[rel]
-        folder = folder_var.get()
-
+    if rel not in mapping:
+        return
+    entry = mapping[rel]
+    folder = folder_var.get()
     filename = os.path.basename(rel)
-
     if entry["type"] == "png":
         files = os.listdir(os.path.join(OVL, folder)) if folder else []
     else:
         files = os.listdir(os.path.join(REPL, folder)) if folder else []
-
     overlay_dropdown["values"] = prioritize_matching_overlay(files, filename)
-
     if entry["value"] not in overlay_dropdown["values"]:
-            overlay_var.set("")
+        overlay_var.set("")
     else:
-            overlay_var.set(entry["value"])
-
+        overlay_var.set(entry["value"])
     show_preview(rel)
 
 folder_dropdown.bind("<<ComboboxSelected>>", folder_changed)
@@ -471,21 +516,16 @@ def refresh_tree(node):
 load_btn.config(command=load_preset)
 save_btn.config(command=save_preset)
 
-def upload_file():
-    files = filedialog.askopenfilenames()
-    if not files:
-        return
-    folder = folder_var.get()
-    dest = OVL if mapping.get(current_selection, {}).get("type") == "png" else REPL
-    dest_dir = os.path.join(dest, folder)
-    os.makedirs(dest_dir, exist_ok=True)
-    for f in files:
-        shutil.copy(f, dest_dir)
-    if current_selection:
-        on_select(None)
+def open_settings():
+    # Simple placeholder popup for now
+    popup = tk.Toplevel(root)
+    popup.title("Settings")
+    popup.geometry("400x300")
+    ttk.Label(popup, text="Colourful Containers is great!").pack(padx=20, pady=20)
 
-upload_btn.config(command=upload_file)
+settings_btn.config(command=open_settings)
 
+# === Process/export pack ===
 def process_pack():
     folder = folder_var.get()
     out_dir = os.path.join(ROOT, f"{folder} output" if folder else "output_pack")
@@ -508,5 +548,48 @@ def process_pack():
     messagebox.showinfo("Done", f"Output pack created:\n{os.path.basename(out_dir)}")
 
 done_btn.config(command=process_pack)
+
+# === External/Open in Explorer actions ===
+def open_in_editor():
+    if not current_selection:
+        return
+
+    path = os.path.join(SRC, current_selection.replace("/", os.sep))
+
+    if not os.path.exists(path):
+        messagebox.showerror("Error", f"Path does not exist:\n{path}")
+        return
+
+    try:
+        if os.path.isdir(path):
+            # For folders, open in Explorer/Finder
+            if platform.system() == "Windows":
+                os.startfile(path)
+            elif platform.system() == "Darwin":
+                subprocess.run(["open", path])
+            else:
+                subprocess.run(["xdg-open", path])
+        else:
+            # For files
+            if platform.system() == "Windows":
+                os.startfile(path)
+            elif platform.system() == "Darwin":
+                subprocess.run(["open", path])
+            else:
+                subprocess.run(["xdg-open", path])
+    except Exception as e:
+        messagebox.showerror("Error", f"Could not open file/folder:\n{e}")
+
+def open_in_explorer():
+    if current_selection:
+        path = os.path.join(SRC, current_selection.replace("/", os.sep))
+        if os.path.isdir(path):
+            webbrowser.open(path)
+        else:
+            folder = os.path.dirname(path)
+            webbrowser.open(folder)
+
+open_external_btn.config(command=open_in_editor)
+open_explorer_btn.config(command=open_in_explorer)
 
 root.mainloop()
