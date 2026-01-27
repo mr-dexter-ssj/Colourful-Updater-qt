@@ -226,8 +226,14 @@ text_preview = tk.Text(
     text_frame,
     wrap="none",
     yscrollcommand=text_scroll.set,
-    state="disabled"
+    state="disabled",
+    bg="#1e1e1e",
+    fg="#d4d4d4",
+    insertbackground="white",
+    selectbackground="#264f78",
+    relief="flat"
 )
+
 text_preview.pack(fill="both", expand=True)
 text_scroll.config(command=text_preview.yview)
 text_frame.grid(row=1, column=0, sticky="nsew")
@@ -328,10 +334,16 @@ def show_image(pil_img):
 def show_text(content):
     preview_canvas.grid_remove()
     text_frame.grid()
+
     text_preview.config(state="normal")
     text_preview.delete("1.0", "end")
     text_preview.insert("1.0", content)
+
+    if current_selection and current_selection.lower().endswith(".json"):
+        highlight_json(text_preview, content)
+
     text_preview.config(state="disabled")
+
     lines = content.count("\n") + 1 if content else 0
     info_label.config(text=f"Lines: {lines}")
     info_label.grid()
@@ -370,6 +382,37 @@ def show_preview(rel, temp_value=None):
         except Exception:
             content = "(Binary or unreadable file)"
         show_text(content)
+
+import re
+
+def highlight_json(text_widget, content):
+    text_widget.tag_delete(*text_widget.tag_names())
+
+    patterns = {
+        "key": r'"(.*?)"\s*:',
+        "string": r':\s*"([^"]*)"',
+        "number": r'\b\d+\.?\d*\b',
+        "bool": r'\b(true|false)\b',
+        "null": r'\bnull\b',
+        "brace": r'[\{\}\[\]]'
+    }
+
+    colors = {
+        "key": "#569CD6",
+        "string": "#6A9955",
+        "number": "#CE9178",
+        "bool": "#C586C0",
+        "null": "#808080",
+        "brace": "#D4D4D4"
+    }
+
+    for tag, pattern in patterns.items():
+        for match in re.finditer(pattern, content):
+            start = f"1.0+{match.start()}c"
+            end = f"1.0+{match.end()}c"
+            text_widget.tag_add(tag, start, end)
+            text_widget.tag_config(tag, foreground=colors[tag])
+
 
 # === Tree selection ===
 def on_select(event):
