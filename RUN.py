@@ -522,7 +522,7 @@ def open_settings():
     popup.title("Settings")
     popup.geometry("400x300")
     popup.iconphoto(False, FAVICON_PATH)
-    ttk.Label(popup, text="Colourful Containers is great!").pack(padx=20, pady=20)
+    ttk.Label(popup, text="Coming Soon!").pack(padx=20, pady=20)
 
 settings_btn.config(command=open_settings)
 
