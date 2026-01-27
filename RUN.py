@@ -88,7 +88,7 @@ def _populate_tree(parent, path):
             is_png = item.lower().endswith(".png")
             if not is_png and not show_all_files.get():
                 continue
-            val = "" if is_png else "—"
+            val = "" if is_png else ""
             tree.insert(parent, "end", text=item, values=(val,))
             mapping[rel] = {"type": "png" if is_png else "file", "value": None}
 
