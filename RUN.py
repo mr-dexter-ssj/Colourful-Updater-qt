@@ -1,14 +1,14 @@
 import os
 import shutil
 import subprocess
-import tkinter as tk
-from tkinter import PhotoImage, ttk, messagebox, filedialog
-from PIL import Image, ImageTk
+# import tkinter as tk
+# from tkinter import PhotoImage, ttk, messagebox, filedialog
+# from PIL import Image, ImageTk
 import json
 import webbrowser
 import platform
 
-# === Paths ===
+# === Paths (backend) ===
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(ROOT, "source_pack")
 OVL = os.path.join(ROOT, "overlays")
@@ -24,7 +24,7 @@ for mode in ["Dark mode", "OLED mode"]:
 if not os.path.exists(SRC):
     raise FileNotFoundError("source_pack folder not found")
 
-# === GUI ===
+# === GUI === ======= REPLACING WITH QT ========
 root = tk.Tk()
 root.title("Minecraft Pack Updater")
 root.geometry("1300x700")
